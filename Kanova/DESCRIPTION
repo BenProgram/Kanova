@@ -1,0 +1,16 @@
+Package: Kanova
+Type: Package
+Title: Analysis of Variance
+Version: 0.1.0
+Author: Benjamin Malunda
+Maintainer: Benjamin Malunda <bkmalunda@gmail.com>
+Description: Produces an anova table in four different formatting: ready latex code, kable, pander, or ggpubr.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    xtable,
+    pander,
+    knitr,
+    ggpubr
+RoxygenNote: 7.1.1
