@@ -25,10 +25,6 @@
 #' Kanova(Y,X,alf,style = "kable")
 #' Kanova(Y,X,alf,nms,"table")
 
-library(ggpubr)
-library(xtable)
-library(knitr)
-library(pander)
 
 Kanova <- function(Ymatrix, Xmatrix, alfa = 0.05, nms = NULL, style = NULL) {
 
